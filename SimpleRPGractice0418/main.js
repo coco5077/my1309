@@ -5,7 +5,7 @@ $(document).ready(function(){
     mapArray = [0,1,1,0,0,0,3,4,2];
     ctx = $("#myCanvas")[0].getContext("2d");
     imgMain = new Image();
-    imgMain.src = "SimpleRPGractice0418/images/People.png";
+    imgMain.src = "images/People.png";
     currentImgMainx=0;
     currentImgMainY=0;
     imgMain.onload=function()
